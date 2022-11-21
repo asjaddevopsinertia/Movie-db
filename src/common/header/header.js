@@ -15,9 +15,10 @@ export const Header = () => {
                 </div>
 
                 <div>
-                <Link to = "/graph" >
+                    
+                <a onClick={() => {window.location.href="/graph"}} target="__blank">
                     <h3>Graph</h3>
-                    </Link>
+                    </a>
                 </div>
             </div>
             </div>
